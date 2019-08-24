@@ -1,0 +1,51 @@
+body{
+    /* background: url("https://matchthemes.com/demowp/gleam/wp-content/uploads/slider-3.jpg"); */
+    
+    font-family: 'Open Sans', sans-serif;
+}
+.head{
+    background: url("https://matchthemes.com/demowp/gleam/wp-content/uploads/slider-3.jpg");
+    background-size: cover;
+    width: 1366px;
+    height: 625px;
+}
+.image-brand{
+    width: 120px;
+}
+/* .navbar-brand{
+    background-color: white;
+} */
+.nav-link{
+    text-transform: uppercase;
+    color: white;
+    padding-top:22px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.05rem;    
+    white-space: nowrap;
+    margin-right: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+/* .nav-item{ 
+margin-left: 0;
+
+} */    
+.navbar-nav{
+width:850px;
+margin-left:90px;
+}
+.navbar{
+    width:1110px;
+    height:71px;
+}
+.slide-underline{
+    margin-left: 3px;
+width: 0px;
+margin-top: 0;
+height: 2px;
+border-top: 1px solid white;
+}
+.active .slide-underline{
+    width: 75%;
+}

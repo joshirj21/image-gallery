@@ -1,0 +1,43 @@
+.head{
+  height:1000px;
+  background:url("https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/22/2018/07/Background_2.jpg");
+  background-size:cover;
+  background-position:center;
+}
+.nav-link{
+  color:white;
+  font-size:13px;
+  font-family: 'Raleway', sans-serif;
+  font-weight:700;
+  color:rgba(255,255,255,0.85)
+}
+/* .nav-item{
+  width:57.375px;
+  height:40px;
+} */
+.drop{
+  display:inline-block;
+  border-right:1px solid #AABAC2;
+  border-bottom:1px solid #AABAC2;
+  height:8px;
+  width:8px;
+  transform:rotate(45deg);
+  position:relative;
+  bottom:3px;
+}
+/* .nav-item{
+  padding:0
+} */
+i{
+  font-size:24px;
+/*   color:transparent;
+  border:2px solid rgba(255,255,255,0.85) */
+}
+.search{
+  height:98px;
+  width:100%;
+  background:red;
+  position:relative;
+  top:-82px;
+  display:none;
+}

@@ -54,3 +54,59 @@ i{
   height: 100%;
   padding-left: 50px;
 }
+#navbarSupportedContent{
+  background: white;  
+  width: 100%;
+}
+.toggler{
+  position: relative;
+  top: 10px;
+  height: 24px;
+  width: 25px;
+  transition: all 2s;
+}
+.navbar-toggler:active{
+  outline: none;
+  border: none;
+}
+.navbar-toggler:focus{
+  outline: none;
+  border: none;
+}
+/* .toggler:active{
+  outline: none;
+  border: none;
+}
+.toggler:focus{
+  outline: none;
+  border: none;
+}
+.toggler:focus-within{
+  outline: none;
+  border: none;
+}
+.toggler:visited{
+  outline: none;
+  border: none;
+} */
+.toggler div{
+  height: 1px;
+  margin-bottom: 4px;
+  border-top: 2px solid white;
+  width: 20px;
+  transition: all 1s;
+}
+.top.isactive{
+  position: relative;
+  top:3.3px;
+  transform: rotate(-45deg)
+}
+.center.isactive{
+  position: relative;
+  display: none;
+}
+.bottom.isactive{
+  position: relative;
+  top:-3.3px;
+  transform: rotate(45deg)
+}

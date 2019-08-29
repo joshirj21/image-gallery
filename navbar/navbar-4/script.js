@@ -20,3 +20,7 @@ navbartoggler.addEventListener("click", function () {
     //     rotateX: "360deg" // -> '540deg'
     // });
 })
+document.onscroll = function () {
+    document.querySelector(".navbar").classList.add("navbar-bg")
+};
+

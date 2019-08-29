@@ -4,6 +4,10 @@
   background-size:cover;
   background-position:center;
 }
+/* .navbar-bg{
+background: white;
+color: black;
+} */
 .nav-link{
   font-size:13px;
   font-family: 'Raleway', sans-serif;
@@ -131,6 +135,22 @@ width: 90%;
 .input-search input:focus{
   outline: none;
   border: none;
+}
+.dropdown-menu{
+  position: relative;
+  left: -500px;
+  width: 75rem;
+  height: 22rem;
+  color: #7E7E7E;
+  bottom: 90px;
+}
+.trending1 .dropdown-item{
+  color: #7E7E7E;
+  font-size: 13px;
+}
+.trending1{
+  width: 242px;
+  border-right: 1px solid #f1f1f1;
 }
 @media(min-width: 992px) {
   #navbarSupportedContent{

@@ -1,0 +1,96 @@
+.navbar{
+    height: 98px;
+    margin: 0 5.214%;
+    padding: 8px;
+}
+.below-header{
+    background: white;
+    height: 586px;
+}
+.image{
+    background: url("https://livedemo00.template-help.com/wt_51684/images/screens-1-1046x720.jpg");
+    width: 781px;
+    height: 586px;
+}
+.inner-image{
+    background: url("https://livedemo00.template-help.com/wt_51684/images/back2.png");
+    width: 377px;
+    height: 586px;
+}
+/* .container-fluid{
+    margin: 0 5.214%;
+} */
+.nav-search{
+    /* border: 1px solid black; */
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #EBB85E;
+}
+.nav-link{
+    text-transform: uppercase;
+    color: #151515;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0.08rem;
+}
+.nav-link:hover{
+    color: #EBB85E;
+}
+.toggler div{
+    height: 1px;
+    margin-bottom: 4px;
+    border-top: 2px solid black;
+    width: 20px;
+    transition: all 1s;
+  }
+  .top.isactive{
+    position: relative;
+    top:3.5px;
+    transform: rotate(-45deg)
+  }
+  .center.isactive{
+    position: relative;
+    display: none;
+  }
+  .bottom.isactive{
+    position: relative;
+    top:-3.5px;
+    transform: rotate(45deg)
+  }
+  /* .toggler:active{
+      outline: none;
+      border: none;
+  } */
+  .navbar-toggler:focus{
+    outline: none;
+    border: none;
+}
+/* .toggler:focus{
+    outline: none;
+    border: none;
+} */
+#navbarSupportedContent{
+    width: 0%;
+    height: 586px; 
+    position: relative;
+    float: left;
+    background: white;
+}
+.show .navbar-nav{
+    overflow: hidden;
+}
+.show .navbar-nav .nav-item .nav-link:hover{
+    background: #EBB85E;
+    color: #151515;
+}
+@media screen and (max-width: 991px) {
+    .navbar {
+        margin: 0%;
+    }
+  }
+  @media screen and (min-width: 991px) {
+    .navbar {
+        margin: 0 5.214%;
+    }
+  }

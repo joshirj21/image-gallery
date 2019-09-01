@@ -1,0 +1,21 @@
+.outer-image{
+    background: url("https://madsparrow.me/emily/assets/images/2.jpg");
+    background-size: cover;
+    background-position-y:-175px;
+    /* background-repeat: no-repeat;  */
+    height: 625px;
+    position: relative;
+    top: -77px;
+    z-index: 1;
+}
+.inner-image{
+    height: 625px;
+    background: linear-gradient(to bottom, black 0, transparent 50%, transparent 63%, rgba(0, 0, 0, 1) 100%);
+    opacity: 0.4;
+}
+.navbar{
+    position: relative;
+    background: transparent;
+    /* display: inline-block; */
+    z-index: 999;
+}
